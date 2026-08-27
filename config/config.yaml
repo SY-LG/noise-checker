@@ -1,0 +1,22 @@
+audio:
+  sample_rate: 48000
+  chunk_size: 1024
+  channels: 1
+  input_device_keyword: "" # Leave empty for default input device
+
+detection:
+  decibel_threshold: 60.0
+  noise_rate_threshold: 0.05
+  noise_duration_threshold: 5.0 # In seconds
+  reset_timeout: 30.0 # In seconds
+
+alarm:
+  frequency: 1000 # Hz
+  duration_ms: 500 # ms
+  volume: 0.5 # Playback volume scalar (0.0 to 1.0)
+  repeat_count: 5
+  speaker_device_id: "" # Leave empty to use system default speaker
+
+schedule:
+  auto_quit: true
+  quit_hour: 4 # Exit automatically at 04:00

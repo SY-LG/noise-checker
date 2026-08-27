@@ -1,0 +1,1 @@
+"""Noise Checker application package."""
